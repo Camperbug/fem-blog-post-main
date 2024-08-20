@@ -1,5 +1,28 @@
-* {
-  h1 {
-    color: aqua;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  /* primary colors */
+  --clr-primary-1-yellow:
+  hsla(47, 89%, 63%, 1);
+  /* secondary colors */
+  --clr-secondary-2-grey:
+  hsla(0, 0%, 50%, 1);
+  --clr-secondary-3-black:
+  hsla(0, 0%, 7%, 1);
+  --clr-secondary-4-white:
+  hsla(0, 0%, 100%, 1);
+  /* box shadow */
+--shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+--shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+--shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+--shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+  0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+body {
+  background: var(--clr-primary-1-yellow);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
