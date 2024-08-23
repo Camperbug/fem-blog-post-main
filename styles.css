@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Figtree;
 }
 
 main {
@@ -33,7 +34,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 22rem;
+  max-width: 20.4rem;
   border-radius: 1.25rem;
   padding: 1.5rem;
   margin: 1rem;
@@ -42,13 +43,11 @@ main {
 
 .graphic {
   margin-bottom: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
 }
+
 
 h2 {
 color: var(--clr-secondary-3-black);
-font-family: Figtree;
 font-size: 0.75rem;
 font-style: normal;
 font-weight: 800; 
@@ -56,6 +55,9 @@ background-color: var(--clr-primary-1-yellow);
 padding: 0.5rem 0.75rem;
 border-radius: 0.63rem;
 margin-right: auto;
+margin-bottom: 0.75rem;
 }
 
-
+p {
+  margin-right: auto;
+}
