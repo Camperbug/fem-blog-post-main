@@ -39,6 +39,7 @@ main {
   padding: 1.5rem;
   margin: 1rem;
   box-shadow: 0.63rem 0.63rem black;
+  border: solid 0.08rem black;
 }
 
 .graphic {
@@ -60,4 +61,42 @@ margin-bottom: 0.75rem;
 
 p {
   margin-right: auto;
+}
+
+h1 {
+  font-size: 1.25rem;
+  margin-right:auto;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+
+.lang-description {
+  color: var(--clr-secondary-2-grey);
+  line-height: 1.31rem;
+  margin-bottom: 1rem;
+}
+
+.flex-avatar {
+  display: flex;
+  gap: 1rem;
+  margin-right: auto;
+  font-weight: 800;
+  font-size: 0.875rem;
+}
+
+.flex-avatar p {
+  align-self: center;
+}
+
+a {
+  margin-right: auto;
+  text-decoration: none;
+}
+
+a {
+  color: var(--clr-secondary-3-black);
+}
+
+a:hover {
+  color: var(--clr-primary-1-yellow);
 }
